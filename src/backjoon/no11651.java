@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class no11650 {
+public class no11651 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -16,12 +16,12 @@ public class no11650 {
             data.add(new Point(Integer.parseInt(input[0]),Integer.parseInt(input[1])));
         }
         data.sort((o1, o2) -> {
-            if (o1.getX() > o2.getX()) return 1;
-            else if(o1.getX() < o2.getX())return -1;
+            if (o1.getY() > o2.getY()) return 1;
+            else if(o1.getY() < o2.getY())return -1;
             else {
-                if (o1.getY() > o2.getY()) {
+                if (o1.getX() > o2.getX()) {
                     return 1;
-                } else if (o1.getY() < o2.getY()) {
+                } else if (o1.getX() < o2.getX()) {
                     return -1;
                 } else {
                     return 0;
