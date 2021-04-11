@@ -16,7 +16,11 @@ public class ArrayStreamCreateStudy {
         streamOfArrayPart.forEach(ArrayPartInstance ->
                 System.out.println("ArrayPartInstance => "+ArrayPartInstance));
 
-        // test rebase branch1 hihihihi
-        // test rebase branch1 hihihihi commit 2
+
+        // rebase test branch2 변경사항1
+        // rebase test branch2 변경사항2
+        // rebase test branch2 변경사항3
+        // https://firework-ham.tistory.com/12
+
     }
 }
