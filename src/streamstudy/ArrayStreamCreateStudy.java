@@ -17,5 +17,6 @@ public class ArrayStreamCreateStudy {
                 System.out.println("ArrayPartInstance => "+ArrayPartInstance));
 
         // rebase test branch2 변경사항1
+        // rebase test branch2 변경사항2
     }
 }
