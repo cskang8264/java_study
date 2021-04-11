@@ -13,6 +13,5 @@ public class CollectionStreamCreateStudy {
        stream.forEach(a -> System.out.println(a)); // -> a b c
        parallelStream.forEach(a -> System.out.println(a)); // -> b c a
 
-
     }
 }
